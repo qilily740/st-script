@@ -1,16 +1,16 @@
 {
   "name": "剧本分页工具",
+  "display_name": "剧本分页工具",
+  "author": "qiliily740",
   "version": "1.0.0",
   "description": "开场白预览、跳转与AI概括工具",
-  "author": "qiliily740",
-  "license": "MIT",
-  "main": "index.html",
-  "scripts": {},
-  "keywords": ["st-extension", "script-pagination"],
-  "st-extension": {
-    "type": "panel",
-    "display_name": "剧本分页工具",
+  "type": "panel",
+  "panel": {
+    "url": "index.html",
     "icon": "📖",
-    "url": "/index.html"
-  }
+    "side": "left",
+    "min_width": 400,
+    "min_height": 600
+  },
+  "tags": ["script", "pagination", "ai-summary"]
 }
