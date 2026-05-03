@@ -1,0 +1,16 @@
+{
+  "name": "剧本分页工具",
+  "version": "1.0.0",
+  "description": "开场白预览、跳转与AI概括工具",
+  "author": "qiliily740",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {},
+  "keywords": ["st-extension", "script-pagination"],
+  "st-extension": {
+    "type": "panel",
+    "display_name": "剧本分页工具",
+    "icon": "📖",
+    "url": "/index.html"
+  }
+}
